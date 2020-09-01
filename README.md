@@ -39,5 +39,5 @@ Visit [Software Documents](https://github.com/UNIX-Like-Human/McGill-ECSE211/tre
 visit [Testing Documents](https://github.com/UNIX-Like-Human/McGill-ECSE211/tree/master/Documentation/Supporting%20Documents/Testing)
 
 ## Management
-visit [Management](https://github.com/UNIX-Like-Human/McGill-ECSE211/tree/master/Documentation/Management)
+visit [Management Documents](https://github.com/UNIX-Like-Human/McGill-ECSE211/tree/master/Documentation/Management)
 
