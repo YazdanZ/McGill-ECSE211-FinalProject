@@ -26,3 +26,6 @@ Front-Side                 |  Back-Side
   * Retractable claw design keeps the size of the robot to a minimum
   * Ultrasonic sensor and the Light sensors mounted on the top are used to search for the stranded vehicle
 
+For more informaton visit the [Hardware and Mechanical Structure Documents](https://github.com/UNIX-Like-Human/McGill-ECSE211/tree/master/Documentation/Supporting%20Documents/Hardware)
+## Software Description 
+
