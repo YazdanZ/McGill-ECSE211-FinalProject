@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="DPM Gantt Chart" company="Group 3" webLink="http://" view-date="2020-02-23" view-index="0" gantt-divider-location="435" resource-divider-location="729" version="2.8.10" locale="en_CA">
+    <description><![CDATA[Gantt Chart Group 3
+History
+Feb 18th: First draft based on Example
+Feb 25th: Finished preliminary version of Gantt Chart (We have a critical path now)
+- Ensure every item has a connection after
+- looked into resource totals, need to reallocate
+- critical path follows general form Documents, software, Testing, Scheduled Demo scheme which feels right
+Feb 25th: Update times for second meeting
+updated for week 3, not the actual gantt chart, please take with grain of salt some extrenuating circumstances occurred, I will explain at meeting. 
+update this will become actual gantt chart, lost other one when I had to flee montreal due to coronavirus and forgot to recover it first
+Marth 30th: Post Coronavirus update,includes two days after meeting 3 and March 30th to Marth 32nd in time sheet (School technically cancelled before then)
+]]></description>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Name" width="119" order="0"/>
+        <field id="tpd4" name="Begin date" width="66" order="1"/>
+        <field id="tpd5" name="End date" width="65" order="2"/>
+        <field id="tpc0" name="Milestone" width="79" order="3"/>
+        <field id="tpd10" name="ID" width="87" order="4"/>
+        <option id="color.recent"><![CDATA[#ff00ff #cc00cc #00cccc #ff0033 #00ff33]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="260" order="0"/>
+        <field id="1" name="Default role" width="465" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="none">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2020" month="3" date="2" type="HOLIDAY"/>
+        <date year="2020" month="3" date="3" type="HOLIDAY"/>
+        <date year="2020" month="3" date="4" type="HOLIDAY"/>
+        <date year="2020" month="3" date="5" type="HOLIDAY"/>
+        <date year="2020" month="3" date="6" type="HOLIDAY"/>
+        <date year="2020" month="3" date="7" type="HOLIDAY"/>
+        <date year="2020" month="3" date="8" type="HOLIDAY"/>
+        <date year="2020" month="3" date="13" type="HOLIDAY"/>
+        <date year="2020" month="3" date="14" type="HOLIDAY"/>
+        <date year="2020" month="3" date="15" type="HOLIDAY"/>
+        <date year="2020" month="3" date="16" type="HOLIDAY"/>
+        <date year="2020" month="3" date="17" type="HOLIDAY"/>
+        <date year="2020" month="3" date="18" type="HOLIDAY"/>
+        <date year="2020" month="3" date="19" type="HOLIDAY"/>
+        <date year="2020" month="3" date="20" type="HOLIDAY"/>
+        <date year="2020" month="3" date="21" type="HOLIDAY"/>
+        <date year="2020" month="3" date="22" type="HOLIDAY"/>
+        <date year="2020" month="3" date="23" type="HOLIDAY"/>
+        <date year="2020" month="3" date="24" type="HOLIDAY"/>
+        <date year="2020" month="3" date="25" type="HOLIDAY"/>
+        <date year="2020" month="3" date="26" type="HOLIDAY"/>
+        <date year="2020" month="3" date="27" type="HOLIDAY"/>
+        <date year="2020" month="3" date="28" type="HOLIDAY"/>
+        <date year="2020" month="3" date="29" type="HOLIDAY"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="Milestone" type="custom" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Project Kick off" color="#cc00cc" meeting="false" start="2020-02-17" duration="1" complete="100" thirdDate="2017-10-15" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Facebook group chat
+setting dropbox
+setting up gant chart
+organize meeting with TA
+
+*purple represents this has been updated for actual time spent]]></notes>
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="234" type="2" difference="0" hardness="Strong"/>
+            <depend id="1035" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="1"/>
+        </task>
+        <task id="1" name="Initial versions of 4 main docs" color="#cc00cc" meeting="false" start="2020-02-18" duration="1" complete="100" thirdDate="2018-02-20" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Yazdan: System Doc
+William: software flow chart, preliminary class diagram, software constraints p4.0
+Andy: Requirements Doc
+Yanis: Capabilities Doc, Presentation(seperate item?)
+Trevor: Constraints Doc
+
+*purple represents this has been updated for actual time spent]]></notes>
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="398" type="2" difference="0" hardness="Strong"/>
+            <depend id="557" type="2" difference="0" hardness="Strong"/>
+            <depend id="620" type="2" difference="0" hardness="Strong"/>
+            <depend id="1035" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="1"/>
+        </task>
+        <task id="1035" name="Budget First Week" color="#cc00cc" meeting="false" start="2020-02-19" duration="1" complete="100" thirdDate="2020-02-13" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[*purple represents this has been updated for actual time spent]]></notes>
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="1"/>
+        </task>
+        <task id="3" name="First Design Meeting" color="#ff0033" meeting="true" start="2020-02-20" duration="0" complete="0" thirdDate="2020-02-19" thirdDate-constraint="1" expand="true">
+            <depend id="557" type="2" difference="0" hardness="Strong"/>
+            <depend id="620" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="1"/>
+        </task>
+        <task id="2" name="Preliminary design ideas" color="#cc00cc" meeting="false" start="2020-02-19" duration="3" complete="100" thirdDate="2018-02-20" thirdDate-constraint="0" expand="false">
+            <notes><![CDATA[Idea creation for both hardware and software]]></notes>
+            <depend id="557" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="1"/>
+            <task id="619" name="Preliminary Hardware Design" color="#8cb6ce" meeting="false" start="2020-02-19" duration="2" complete="100" thirdDate="2020-02-15" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Some sketches and ideas for hardware of robot]]></notes>
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="620" name="Preliminary Software Design" color="#8cb6ce" meeting="false" start="2020-02-20" duration="2" complete="100" thirdDate="2020-02-15" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Flowchart and models of potential code]]></notes>
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="398" name="Test Plans" color="#cc00cc" meeting="false" start="2020-02-19" duration="5" complete="100" thirdDate="2018-02-22" thirdDate-constraint="0" expand="false">
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="2"/>
+            <task id="696" name="Decide Units for Testing" color="#8cb6ce" meeting="false" start="2020-02-19" duration="2" complete="100" thirdDate="2020-02-16" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Decide the parts of the code, hardware that needs unit testing
+]]></notes>
+            </task>
+            <task id="698" name="Create Testing Document" color="#8cb6ce" meeting="false" start="2020-02-20" duration="4" complete="100" thirdDate="2020-02-16" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="234" name="Develop detailed gantt chart" color="#cc00cc" meeting="false" start="2020-02-18" duration="3" complete="100" thirdDate="2018-02-18" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="1"/>
+        </task>
+        <task id="557" name="Idea Evaluation" color="#cc00cc" meeting="false" start="2020-02-22" duration="1" complete="100" thirdDate="2018-02-22" thirdDate-constraint="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="1"/>
+        </task>
+        <task id="14" name="Mechanical Design Proposal" color="#cc00cc" meeting="false" start="2020-02-23" duration="2" complete="100" thirdDate="2018-02-23" thirdDate-constraint="1" expand="true">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+            <depend id="627" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="2"/>
+        </task>
+        <task id="17" name="Software Design Doc" color="#cc00cc" meeting="false" start="2020-02-23" duration="3" complete="100" thirdDate="2018-02-23" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Update flow chart from first milestone]]></notes>
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+            <depend id="35" type="2" difference="0" hardness="Strong"/>
+            <depend id="38" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="2"/>
+        </task>
+        <task id="22" name="4 Documents Week 2 Update" color="#cc00cc" meeting="false" start="2020-02-24" duration="2" complete="100" thirdDate="2018-02-24" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Update all four documents]]></notes>
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="2"/>
+        </task>
+        <task id="709" name="Update budget" color="#cc00cc" meeting="false" start="2020-02-27" duration="2" complete="100" thirdDate="2020-02-16" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="2"/>
+        </task>
+        <task id="627" name="Hardware Design Doc" color="#cc00cc" meeting="false" start="2020-02-25" duration="2" complete="100" thirdDate="2020-02-15" thirdDate-constraint="0" expand="true">
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="2"/>
+        </task>
+        <task id="28" name="Choose Mechanical Design" color="#cc00cc" meeting="false" start="2020-02-25" duration="2" complete="100" thirdDate="2018-03-08" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Have atleast three viable alternatives
+]]></notes>
+            <depend id="32" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="2"/>
+        </task>
+        <task id="32" name="Construct physical model and/or LDD" color="#ff00ff" meeting="false" start="2020-02-27" duration="2" complete="100" thirdDate="2020-02-26" thirdDate-constraint="0" expand="true">
+            <depend id="48" type="2" difference="0" hardness="Strong"/>
+            <depend id="120" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="3"/>
+        </task>
+        <task id="35" name="Software class hierarchy" color="#ff00ff" meeting="false" start="2020-02-26" duration="4" complete="100" thirdDate="2018-02-28" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Make new class hierarchy now that final code has been added]]></notes>
+            <depend id="689" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="3"/>
+        </task>
+        <task id="689" name="Software Base Builders" color="#ff00ff" meeting="false" start="2020-03-01" duration="4" complete="100" thirdDate="2020-02-23" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Compile reusable portions from initial labs, using the class hierarchy
+Judge what new code has to be made]]></notes>
+            <depend id="51" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="3"/>
+        </task>
+        <task id="638" name="Update Gantt Chart" color="#cc00cc" meeting="false" start="2020-02-27" duration="1" complete="100" thirdDate="2020-02-15" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="2"/>
+        </task>
+        <task id="879" name="4 Documents Week 3 Update" color="#ff00ff" meeting="false" start="2020-03-11" duration="1" complete="100" thirdDate="2018-02-24" thirdDate-constraint="0" expand="true" cost-manual-value="4.0" cost-calculated="true">
+            <notes><![CDATA[Update all four documents]]></notes>
+            <customproperty taskproperty-id="tpc0" value="3"/>
+        </task>
+        <task id="25" name="Second Design Meeting" color="#ff0033" meeting="true" start="2020-02-27" duration="0" complete="0" thirdDate="2020-02-26" thirdDate-constraint="1" expand="true">
+            <depend id="57" type="2" difference="0" hardness="Strong"/>
+            <depend id="638" type="2" difference="0" hardness="Strong"/>
+            <depend id="709" type="2" difference="0" hardness="Strong"/>
+            <depend id="791" type="2" difference="0" hardness="Strong"/>
+            <depend id="792" type="2" difference="0" hardness="Strong"/>
+            <depend id="795" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="2"/>
+        </task>
+        <task id="57" name="Testing Plan details complete" color="#ff00ff" meeting="false" start="2020-03-10" duration="1" complete="100" thirdDate="2018-03-15" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Inlcude lab 5?, discuss how it can affect project]]></notes>
+            <depend id="41" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="3"/>
+        </task>
+        <task id="792" name="Discuss Lab 5 (Reusability)" color="#ff00ff" meeting="false" start="2020-02-27" duration="1" complete="100" thirdDate="2020-02-16" thirdDate-constraint="0" expand="true">
+            <depend id="57" type="2" difference="0" hardness="Strong"/>
+            <depend id="689" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="3"/>
+        </task>
+        <task id="791" name="Hardware Unit Testing Plan" color="#ff00ff" meeting="false" start="2020-02-27" duration="5" complete="100" thirdDate="2020-02-16" thirdDate-constraint="0" expand="true">
+            <depend id="57" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="3"/>
+        </task>
+        <task id="795" name="Software Unit Testing Plan" color="#ff00ff" meeting="false" start="2020-02-27" duration="5" complete="100" thirdDate="2020-02-16" thirdDate-constraint="0" expand="true">
+            <depend id="57" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="3"/>
+        </task>
+        <task id="48" name="Complete Mechanical Design" color="#ff00ff" meeting="false" start="2020-02-29" duration="5" complete="100" thirdDate="2018-03-01" thirdDate-constraint="0" expand="true">
+            <depend id="74" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="3"/>
+        </task>
+        <task id="74" name="Final Mechanical Design" color="#ff00ff" meeting="false" start="2020-03-12" duration="2" complete="100" thirdDate="2018-03-12" thirdDate-constraint="0" expand="true">
+            <depend id="642" type="2" difference="0" hardness="Strong"/>
+            <depend id="900" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="3"/>
+        </task>
+        <task id="38" name="Preliminary API docs" color="#ff00ff" meeting="false" start="2020-02-26" duration="2" complete="100" thirdDate="2018-03-10" thirdDate-constraint="0" expand="true">
+            <depend id="51" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="4"/>
+        </task>
+        <task id="41" name="Third Design Meeting" color="#ff0033" meeting="true" start="2020-03-11" duration="0" complete="0" thirdDate="2020-03-11" thirdDate-constraint="1" expand="true">
+            <depend id="116" type="2" difference="0" hardness="Strong"/>
+            <depend id="879" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="3"/>
+        </task>
+        <task id="51" name="Software development phase 1" color="#ff00ff" meeting="false" start="2020-03-12" duration="3" complete="100" thirdDate="2018-11-07" thirdDate-constraint="0" expand="true">
+            <depend id="116" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="4"/>
+        </task>
+        <task id="116" name="Fourth Design Meeting" color="#ff0033" meeting="true" start="2020-04-01" duration="0" complete="0" thirdDate="2020-03-18" thirdDate-constraint="1" expand="true">
+            <depend id="1218" type="2" difference="0" hardness="Strong"/>
+            <depend id="1244" type="2" difference="0" hardness="Strong"/>
+            <depend id="1263" type="2" difference="0" hardness="Strong"/>
+            <depend id="1285" type="2" difference="0" hardness="Strong"/>
+            <depend id="1302" type="2" difference="0" hardness="Strong"/>
+            <depend id="1324" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="4"/>
+        </task>
+        <task id="900" name="4 Documents Week 4 Update" color="#ff00ff" meeting="false" start="2020-03-31" duration="1" complete="100" thirdDate="2020-02-17" thirdDate-constraint="0" expand="true">
+            <depend id="116" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="4"/>
+        </task>
+        <task id="642" name="Update Gantt Chart" color="#ff00ff" meeting="false" start="2020-03-31" duration="1" complete="100" thirdDate="2020-03-16" thirdDate-constraint="0" expand="true">
+            <depend id="116" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="4"/>
+        </task>
+        <task id="120" name="Phase 1 poster design" color="#ff00ff" meeting="false" start="2020-03-10" duration="1" complete="20" thirdDate="2020-03-10" thirdDate-constraint="1" expand="true">
+            <notes><![CDATA[Started it but now we don't need poster still need to include hours spent]]></notes>
+            <customproperty taskproperty-id="tpc0" value="5"/>
+        </task>
+        <task id="1205" name="Final Presentation" color="#8cb6ce" meeting="true" start="2020-04-09" duration="0" complete="0" thirdDate="2020-04-09" thirdDate-constraint="1" expand="true"/>
+        <task id="1302" name="Final Presentation Developement" color="#8cb6ce" meeting="false" start="2020-04-08" duration="1" complete="0" thirdDate="2020-03-30" thirdDate-constraint="0" expand="true">
+            <depend id="1205" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1218" name="Final Documents preparation for Submission" color="#8cb6ce" meeting="false" start="2020-04-01" duration="7" complete="0" thirdDate="2020-03-30" thirdDate-constraint="0" expand="true">
+            <depend id="1205" type="2" difference="0" hardness="Strong"/>
+            <depend id="1302" type="2" difference="0" hardness="Strong"/>
+            <depend id="1324" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1244" name="More Detailed API" color="#8cb6ce" meeting="false" start="2020-04-01" duration="4" complete="0" thirdDate="2020-03-30" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[So others can continue where we left off]]></notes>
+            <depend id="1205" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1263" name="New Gantt Chart for future team" color="#8cb6ce" meeting="false" start="2020-04-01" duration="4" complete="0" thirdDate="2020-03-30" thirdDate-constraint="0" expand="true">
+            <depend id="1205" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1285" name="Test Plan Touchups" color="#8cb6ce" meeting="false" start="2020-04-01" duration="4" complete="0" thirdDate="2020-03-30" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Now that future teams will be completing all future test plans, they must be perfect]]></notes>
+            <depend id="1205" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1324" name="Last Time sheet and gantt chart update" color="#8cb6ce" meeting="false" start="2020-04-08" duration="1" complete="0" thirdDate="2020-03-30" thirdDate-constraint="0" expand="true">
+            <depend id="1205" type="2" difference="0" hardness="Strong"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Ben" function="Default:1" contacts="" phone="xxx-yyy-zzzz">
+            <rate name="standard" value="100"/>
+        </resource>
+        <resource id="1" name="Andy" function="2" contacts="" phone="">
+            <rate name="standard" value="100"/>
+        </resource>
+        <resource id="2" name="Yazdan" function="3" contacts="" phone=""/>
+        <resource id="3" name="William" function="4" contacts="" phone=""/>
+        <resource id="4" name="Yanis" function="5" contacts="" phone=""/>
+        <resource id="5" name="Trevor" function="7" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="234" resource-id="0" function="Default:1" responsible="true" load="5.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:1" responsible="true" load="0.5"/>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="0.5"/>
+        <allocation task-id="638" resource-id="0" function="Default:1" responsible="true" load="1.0"/>
+        <allocation task-id="709" resource-id="0" function="Default:1" responsible="true" load="1.0"/>
+        <allocation task-id="25" resource-id="0" function="Default:1" responsible="true" load="0.5"/>
+        <allocation task-id="792" resource-id="0" function="Default:1" responsible="false" load="1.0"/>
+        <allocation task-id="795" resource-id="0" function="Default:1" responsible="true" load="1.0"/>
+        <allocation task-id="38" resource-id="0" function="Default:1" responsible="false" load="1.0"/>
+        <allocation task-id="41" resource-id="0" function="Default:1" responsible="true" load="0.5"/>
+        <allocation task-id="116" resource-id="0" function="Default:1" responsible="true" load="0.5"/>
+        <allocation task-id="642" resource-id="0" function="Default:1" responsible="true" load="5.0"/>
+        <allocation task-id="1035" resource-id="0" function="Default:1" responsible="true" load="0.5"/>
+        <allocation task-id="1263" resource-id="0" function="Default:1" responsible="true" load="5.0"/>
+        <allocation task-id="1324" resource-id="0" function="Default:1" responsible="true" load="2.0"/>
+        <allocation task-id="1" resource-id="1" function="SoftwareDevelopment:3" responsible="true" load="3.0"/>
+        <allocation task-id="3" resource-id="1" function="2" responsible="true" load="0.5"/>
+        <allocation task-id="398" resource-id="1" function="2" responsible="false" load="1.0"/>
+        <allocation task-id="22" resource-id="1" function="2" responsible="true" load="1.5"/>
+        <allocation task-id="17" resource-id="1" function="2" responsible="true" load="1.0"/>
+        <allocation task-id="25" resource-id="1" function="2" responsible="false" load="0.5"/>
+        <allocation task-id="41" resource-id="1" function="2" responsible="false" load="0.5"/>
+        <allocation task-id="116" resource-id="1" function="2" responsible="false" load="0.5"/>
+        <allocation task-id="120" resource-id="1" function="2" responsible="false" load="3.0"/>
+        <allocation task-id="879" resource-id="1" function="2" responsible="true" load="2.0"/>
+        <allocation task-id="900" resource-id="1" function="2" responsible="true" load="2.0"/>
+        <allocation task-id="795" resource-id="1" function="2" responsible="false" load="3.0"/>
+        <allocation task-id="1218" resource-id="1" function="2" responsible="true" load="7.0"/>
+        <allocation task-id="2" resource-id="2" function="3" responsible="true" load="1.0"/>
+        <allocation task-id="1" resource-id="2" function="3" responsible="false" load="5.0"/>
+        <allocation task-id="14" resource-id="2" function="3" responsible="true" load="3.0"/>
+        <allocation task-id="3" resource-id="2" function="3" responsible="false" load="0.5"/>
+        <allocation task-id="627" resource-id="2" function="3" responsible="true" load="1.0"/>
+        <allocation task-id="28" resource-id="2" function="3" responsible="true" load="0.5"/>
+        <allocation task-id="32" resource-id="2" function="3" responsible="true" load="2.0"/>
+        <allocation task-id="25" resource-id="2" function="3" responsible="false" load="0.5"/>
+        <allocation task-id="48" resource-id="2" function="3" responsible="true" load="2.0"/>
+        <allocation task-id="74" resource-id="2" function="3" responsible="true" load="5.0"/>
+        <allocation task-id="41" resource-id="2" function="3" responsible="false" load="0.5"/>
+        <allocation task-id="116" resource-id="2" function="3" responsible="false" load="0.5"/>
+        <allocation task-id="2" resource-id="3" function="4" responsible="true" load="2.0"/>
+        <allocation task-id="1" resource-id="3" function="4" responsible="false" load="2.0"/>
+        <allocation task-id="3" resource-id="3" function="4" responsible="false" load="0.5"/>
+        <allocation task-id="17" resource-id="3" function="4" responsible="false" load="1.0"/>
+        <allocation task-id="35" resource-id="3" function="4" responsible="true" load="0.75"/>
+        <allocation task-id="689" resource-id="3" function="4" responsible="true" load="0.75"/>
+        <allocation task-id="25" resource-id="3" function="4" responsible="false" load="0.5"/>
+        <allocation task-id="792" resource-id="3" function="4" responsible="true" load="1.0"/>
+        <allocation task-id="795" resource-id="3" function="4" responsible="false" load="1.0"/>
+        <allocation task-id="38" resource-id="3" function="4" responsible="true" load="3.0"/>
+        <allocation task-id="41" resource-id="3" function="4" responsible="false" load="0.5"/>
+        <allocation task-id="51" resource-id="3" function="4" responsible="true" load="8.0"/>
+        <allocation task-id="116" resource-id="3" function="4" responsible="false" load="0.5"/>
+        <allocation task-id="1244" resource-id="3" function="4" responsible="true" load="8.0"/>
+        <allocation task-id="1" resource-id="4" function="5" responsible="false" load="3.0"/>
+        <allocation task-id="398" resource-id="4" function="5" responsible="true" load="4.0"/>
+        <allocation task-id="3" resource-id="4" function="5" responsible="false" load="0.5"/>
+        <allocation task-id="25" resource-id="4" function="5" responsible="false" load="0.5"/>
+        <allocation task-id="57" resource-id="4" function="5" responsible="true" load="1.0"/>
+        <allocation task-id="791" resource-id="4" function="5" responsible="false" load="2.0"/>
+        <allocation task-id="795" resource-id="4" function="5" responsible="false" load="2.0"/>
+        <allocation task-id="41" resource-id="4" function="5" responsible="false" load="0.5"/>
+        <allocation task-id="116" resource-id="4" function="5" responsible="false" load="0.5"/>
+        <allocation task-id="51" resource-id="4" function="5" responsible="false" load="2.0"/>
+        <allocation task-id="74" resource-id="4" function="5" responsible="false" load="2.0"/>
+        <allocation task-id="1285" resource-id="4" function="5" responsible="true" load="5.0"/>
+        <allocation task-id="1" resource-id="5" function="7" responsible="false" load="2.0"/>
+        <allocation task-id="3" resource-id="5" function="7" responsible="false" load="0.5"/>
+        <allocation task-id="398" resource-id="5" function="7" responsible="false" load="1.0"/>
+        <allocation task-id="557" resource-id="5" function="7" responsible="false" load="2.0"/>
+        <allocation task-id="17" resource-id="5" function="7" responsible="false" load="1.0"/>
+        <allocation task-id="25" resource-id="5" function="7" responsible="false" load="0.5"/>
+        <allocation task-id="57" resource-id="5" function="7" responsible="false" load="1.0"/>
+        <allocation task-id="48" resource-id="5" function="7" responsible="false" load="2.0"/>
+        <allocation task-id="41" resource-id="5" function="7" responsible="false" load="0.5"/>
+        <allocation task-id="116" resource-id="5" function="7" responsible="false" load="0.5"/>
+        <allocation task-id="627" resource-id="5" function="7" responsible="false" load="1.0"/>
+        <allocation task-id="51" resource-id="5" function="7" responsible="false" load="4.0"/>
+        <allocation task-id="1218" resource-id="5" function="7" responsible="false" load="3.0"/>
+        <allocation task-id="74" resource-id="5" function="7" responsible="false" load="1.0"/>
+        <allocation task-id="1302" resource-id="5" function="7" responsible="true" load="3.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="2" name="Documentation Manager"/>
+        <role id="3" name="Hardware Lead Designer"/>
+        <role id="4" name="Software Lead Designer"/>
+        <role id="5" name="Testing Manager"/>
+        <role id="6" name="Team Member (Hardware)"/>
+        <role id="7" name="Team Member (Software)"/>
+        <role id="9" name=""/>
+        <role id="10" name="Project Manager"/>
+    </roles>
+</project>
