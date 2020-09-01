@@ -1,2 +1,2 @@
 # DPMProject
-Project in ECSE 211
+Final Project in McGill ECSE 211-Design Principles and Methods
