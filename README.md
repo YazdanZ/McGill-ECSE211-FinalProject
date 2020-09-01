@@ -14,3 +14,15 @@ The robot has an ultrasonic sensor facing forward for ultrasonic localization. A
 Front-Side                 |  Back-Side
 :-------------------------:|:-------------------------:
 ![](https://github.com/UNIX-Like-Human/McGill-ECSE211/blob/master/Documentation/Supporting%20Documents/Hardware/Robot%20V%201.1/Renders/Robot%20V1.1%20-%20Front-Side.jpg)   |  ![](https://github.com/UNIX-Like-Human/McGill-ECSE211/blob/master/Documentation/Supporting%20Documents/Hardware/Robot%20V%201.1/Renders/Robot%20V1.1%20-%20Back-Side.jpg)
+
+* Localization: 
+  * Ultrasonic and Light localization
+  * A combination of Ultrasonic and Light localization for higher localization accuracy 
+* Navigation:
+  * Two light sensors in the front allow odometer error correction during navigation by giving feedback, reducing navigation error over long distances
+  * The overall small size of the robot allows sharp turn and reduces the turning radius
+  * Obstacle avoidance using color detection with the color/light sensor mounted on the top
+* Search and Rescue: 
+  * Retractable claw design keeps the size of the robot to a minimum
+  * Ultrasonic sensor and the Light sensors mounted on the top are used to search for the stranded vehicle
+
