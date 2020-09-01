@@ -29,3 +29,15 @@ Front-Side                 |  Back-Side
 For more informaton visit the [Hardware and Mechanical Structure Documents](https://github.com/UNIX-Like-Human/McGill-ECSE211/tree/master/Documentation/Supporting%20Documents/Hardware)
 ## Software Description 
 
+<p align="center">
+  <img src="https://github.com/UNIX-Like-Human/McGill-ECSE211/blob/master/Documentation/Supporting%20Documents/Software/Software%20Flow.png">
+</p>
+
+Visit [Software Documents](https://github.com/UNIX-Like-Human/McGill-ECSE211/tree/master/Documentation/Supporting%20Documents/Software) and [the software implemeattion](https://github.com/UNIX-Like-Human/McGill-ECSE211/tree/master/DPMProject) as well as the [JavaDoc](https://github.com/UNIX-Like-Human/McGill-ECSE211/blob/master/Documentation/Supporting%20Documents/Software/JavaDoc.zip)
+
+## Testing 
+visit [Testing Documents] (https://github.com/UNIX-Like-Human/McGill-ECSE211/tree/master/Documentation/Supporting%20Documents/Testing)
+
+## Management
+visit [Management] (https://github.com/UNIX-Like-Human/McGill-ECSE211/tree/master/Documentation/Management)
+
