@@ -1,4 +1,6 @@
 # ECSE 211 Final Project
+![](https://img.shields.io/badge/-Java-informational?style=for-the-badge&logo=Java&logoColor=white&color=007396)
+
 Final Project in McGill ECSE 211-Design Principles and Methods
 
 ## Project Description 
